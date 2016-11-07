@@ -1,6 +1,7 @@
 /****************
  * Andres Aguayo
  * CODE2040
+ * Step 1
  ****************/
 
 import java.net.*;
@@ -42,7 +43,7 @@ public class APIconnect {
 			
 			while((line = rd.readLine()) != null) {
 				response.append(line);
-				response.append('\r');
+				response.append('\n');
 			}
 			
 			rd.close();
